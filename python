@@ -1,0 +1,32 @@
+# using lambda function: 
+'''
+in py we define a function but lambda has Now instead of defining the function somewhere and calling it, we can use python's lambda functions, which are inline functions defined at the same place we use it. So we don't need to declare a function somewhere and revisit the code just for a single time use. 
+#printing true for even numbers:
+l = [2,4,7,3,14,19]
+for i in l:
+  use_lambda = lambda a :a%2==0
+  print(use_lambda(i))
+#o/p[ is:
+True
+True
+False
+False
+True
+False
+#printing false for odd numbers :
+l = [2,4,7,3,14,19]
+for i in l:
+  use_lambda = lambda a :a%2==1
+  print(use_lambda(i))
+#o/p is:
+False
+False
+True
+True
+False
+True
+
+    
+
+    
+ 
